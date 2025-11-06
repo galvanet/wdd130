@@ -25,6 +25,9 @@ h1 {
 main img{
     width: 150px;
     height: auto;
+    border: #333;
+    padding: 1px;
+    box-shadow: #eee;
 }
 
 
@@ -47,7 +50,7 @@ aside img{
 }
 
 footer{
-    margin: 2em;
+    margin-top: 2em;
     border-top: 3px solid #333;
     text-align: center;
 }
