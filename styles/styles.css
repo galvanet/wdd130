@@ -1,13 +1,19 @@
+:root{
+--heading-color: darkblue;
+--heading-height:auto;
+--heading-width:150px;
+}
+
 img {
-    width: 150px;
-    height: auto;
+    width: var(--heading-width);
+    height: var(--heading-height);
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-color);
     padding: 10px;
 }
 nav a { 
@@ -20,11 +26,11 @@ main {
     max-width: 840px;
 }
 h1 {
-    color: darkblue;
+    color: var(--heading-color);
 }
 main img{
-    width: 150px;
-    height: auto;
+    width: var(--heading-width);
+    height: var(--heading-height);
     border: 1px solid steelblue;
     padding: 1px;
     box-shadow: 0 0 30px gray;
