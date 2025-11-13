@@ -10,6 +10,10 @@
 --heading-height:auto;
 
 }
+body{
+    font-size: 18px;
+    font-size: Roboto, Arial, sans-serif;
+}
 
     img {
     width: var(--heading-width);
@@ -28,12 +32,18 @@ nav a {
     display: block;
     padding: 10px;
     }
+/*nav a:hover{
+    color: black;
+
+}*/
 
 main {
     max-width: 840px;
 }
 h1 {
     color: var(--heading-color);
+    padding: .5rem;
+    text-shadow: 1px 1px black;
 }
 main img{
     width: var(--heading-width);
@@ -42,15 +52,17 @@ main img{
     padding: 1px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p{
+    margin: 1rem;
     padding: 0px;
     
     
 }
 aside{
-    position: relative;
+    position: relative; /*This sets the relation image-text to be looked when zoom-in/out in this case img -h2 (inside the aside*/
     width: 20em;
     /*margin: 1em;*/
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -85,11 +97,18 @@ footer{
 }
 /* "Class Selectors"*/
 
-.box{
+.box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
     max-width: 300px;
+}
+a.col:hover{
+color: greenyellow;
+}
+li.col2:hover{
+    color: greenyellow;
+
 }
