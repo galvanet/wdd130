@@ -11,7 +11,7 @@
 
 }
 body{
-    font-size: 18px;
+    font-size: 17px;
     font-size: Roboto, Arial, sans-serif;
 }
 
@@ -32,10 +32,6 @@ nav a {
     display: block;
     padding: 10px;
     }
-/*nav a:hover{
-    color: black;
-
-}*/
 
 main {
     max-width: 840px;
@@ -58,8 +54,7 @@ main img{
 p{
     margin: 1rem;
     padding: 0px;
-    
-    
+        
 }
 aside{
     position: relative; /*This sets the relation image-text to be looked when zoom-in/out in this case img -h2 (inside the aside*/
