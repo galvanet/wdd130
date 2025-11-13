@@ -22,10 +22,18 @@ header, main, footer{
     width: 840px;
     margin: 0 auto;
 }
+header nav a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
 
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    background-color: var(--secondary-color);
+    text-align: center;
+    opacity: 0.8;
 }
 nav, p, section, article {
     margin: 16px;
@@ -45,11 +53,14 @@ nav, p, section, article {
     width: 100%;
     height: auto;
 }
+.hero h1{
+    position: absolute
+}
 
 h1 {
     position: absolute;
     top: 20px;
-    right: 25%;
+    right: 25px;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
@@ -57,15 +68,34 @@ h1 {
     color: #fff;
 }
 
-article{
+article {
     position: absolute;
     top: 325px;
     padding: 0;
     margin: 30px;
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
+    opacity: 0.8;
+   
+    
+}
+
+article img{
+        position: relative;
+        float: left;
+        right: 0px;
+        padding-left: 25px ;
+}
+article p {
+        position: relative;
+        height: 150px;
+        margin: 0px;
+        padding-right: 100px;
+        color: white;
+        
 }
 
 .hero article img {
+    position: absolute;
     float: right;
     width: 125px;
 }
