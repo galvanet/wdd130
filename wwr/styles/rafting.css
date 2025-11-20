@@ -132,12 +132,18 @@ header img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
+.column-1 {
+    align-self: flex-start;
+    position: absolute;
+   
+}
 .one {
     width: 200px;
     height: auto;
-    margin: .50rem;
+    margin: 3rem;
     padding: .5rem;
 }
 
@@ -145,14 +151,22 @@ header img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-start;
    
             
  }
 .two {
     width: 100px;
     height: auto;
-    margin: .50rem;
+    margin: 2rem;
     padding: .5rem;
+}
+
+.column-2 {
+    align-self: flex-start;
+    position: absolute;
+    
+     
 }
 
 
