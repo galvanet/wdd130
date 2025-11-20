@@ -121,9 +121,11 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-  
-    
-}
+    }
+
+    nav :hover{
+        color: lightblue;
+    }
 header img{
     height: 200px;
 
@@ -187,11 +189,15 @@ header img{
       
 }
  */
+    .container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .container3 nav :hover{
+        color: lightblue;
+    }
 
-    footer .socialmedia {
-    display: flex;
-    justify-content: right;
-    flex-wrap: wrap;
- }
+ 
 
