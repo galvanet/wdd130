@@ -167,28 +167,8 @@ header img{
 .column-2 {
     align-self: flex-start;
     position: absolute;
-    
-     
-}
+     }
 
-
-
-/* .container2 {       this is an optional setup
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column: 1/5;
-}
-
-.columns-2 {
-    grid-column: span 5;
-      
-}
-
-.two {
-    margin: .25rem;
-      
-}
- */
     .container3 {
         display: flex;
         justify-content: center;
