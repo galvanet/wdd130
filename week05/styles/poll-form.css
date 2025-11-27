@@ -6,12 +6,13 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
 }
 
-header{
+/* header{
     margin: 0 auto;
     width: 800px;
-    }
+    } */
 
     h1  {
     margin: 1rem;
@@ -21,35 +22,35 @@ header{
     }
 
     form {
-        width: 600px;
-        margin: 10px;
-        padding: 5px;
+        width: 500px;
+        margin: 20px;
+        padding: 0.3rem;
         border: 1px solid black;
         border-radius: 10px;
         background-color: rgb(146, 197, 108);
-        display: grid;
+        text-align: center;
     }
 
-    fieldset {
+   /*  fieldset {
         display: grid;
         grid-gap: .5rem;
         margin: 1rem;
         border: 1px solid rgb(0 0 0 0/2);
         padding: 1rem;
-    }
+    } */
 
-    legend {
+    /* legend {
         padding: 0.5rem;
         color: navy;
         font-size: 1.3em;
-    }
+    } */
 
     label, input, button, select, textarea {
         font-family: Roboto,Arial, Helvetica, sans-serif;
     }
      
     label {
-        text-align: right;
+        text-align: center;
         padding-right: 1rem;
     }
     input, select, textarea {
@@ -70,7 +71,10 @@ header{
         border-radius: .5rem;
         padding: .75rem;
         font-size: 1.2rem;
+        width: 150px;  
+        text-align: center;
     }
+
     button:hover {
         background-color: darkgreen;
     }
@@ -86,20 +90,39 @@ header{
 
     .form-item{
         display: grid;
-        align-items: center;
-        margin: 10px;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+       
+
     }
 
     .column1 {
         display: grid;
-        grid-template-columns: 3fr 1fr;
-        margin: 0.5rem 0;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+
+        
     }
 
      .column2 {
-        grid-template-columns: 1fr 2fr;        
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+        gap: 10px;
+        margin: auto;
     }
-    .form-item label {
-        text-align:left;
-       
+    .column3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin: auto;
     }
+
+      .column4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin: auto;
+    }
+    
+    
+   
