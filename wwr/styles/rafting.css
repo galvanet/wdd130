@@ -179,5 +179,43 @@ header img{
         color: lightblue;
     }
 
- 
+    /*Adding CSS to contact.html*/
+   
+    .contact1 h1{
+        align-items: center;
+        position: relative;
+        padding: 10px;
+        opacity: 0.7;
+        margin: 1rem;
+        max-width: 500px;
+    
+   } 
+   
 
+.container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.container3 nav :hover{
+        color: lightblue;
+    }
+
+iframe{
+    margin: 1px solid var(--accent1-color);
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+input,label, button {
+    text-align: left;
+    margin: .3rem;
+    padding: .3rem;
+  
+} 
