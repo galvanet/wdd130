@@ -189,16 +189,6 @@ header img{
         }  
    
 
-.container3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-.container3 nav :hover{
-        color: lightblue;
-    }
-
 iframe{
     margin: 1px solid black;
 }
