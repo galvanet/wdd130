@@ -28,7 +28,7 @@ header nav a{
     padding: 5px;
 }
 
-h1, h2 {
+ h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     background-color: var(--secondary-color);
@@ -59,7 +59,7 @@ nav, p, section, article {
 }
 
 h1 {
-    position: absolute;
+    position: relative;
     top: 20px;
     right: 25px;
     padding: 16px;
@@ -169,14 +169,12 @@ header img{
     position: absolute;
      }
 
-    .container3 {
+    .container3, nav :hover {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .container3 nav :hover{
         color: lightblue;
+
     }
 
     /*Adding CSS to contact.html*/
@@ -213,16 +211,20 @@ iframe{
     padding: 1rem;
 }
 input,label, button{
-    
-    margin: .5rem;
-    padding: .5rem;
-    
    
-} 
+    margin: .5rem;
+ } 
 
-.container-4 {
+.container-4{
         display: flex;
         justify-content: space-evenly;
         text-align: center;
 }
 
+.message {
+    display: flex;
+    
+}
+h1{
+        position: relative;
+}
