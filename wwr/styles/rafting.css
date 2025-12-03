@@ -67,7 +67,8 @@ h1 {
     text-align: center;
     opacity: 0.9;
     /* background-color: var(--accent1-color); */
-    color: var(--accent2-color);
+    color: white;
+    background-color: #264653;
 }
 
 article {
@@ -92,7 +93,7 @@ article p {
         height: 150px;
         margin: 0px;
         padding-right: 100px;
-        color: var(--accent2-color);
+        color: white;
 }
 
 .hero article{
