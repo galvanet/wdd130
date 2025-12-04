@@ -300,16 +300,43 @@ input,label{
  } 
 
 .container-4{
-        display: flex;
-        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         text-align: center;
+        
+    }
+
+
+ .four-4 {
+    grid-column: 1/4;
 }
-.container-4 img {
+.four-1 img {
+    grid-column: 1/2;
+    grid-row: 2/3;
     width: 150px;
     height: 150px;
     border-radius: 5%;
     box-shadow: 0 0 30px gray;
 }
+.four-2 img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    box-shadow: 0 0 30px gray;
+}
+.four-3 img {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    box-shadow: 0 0 30px gray;
+}
+
+
 
 .message {
     display: flex;
