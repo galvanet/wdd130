@@ -101,10 +101,10 @@ article p {
 }
 
 .hero article{
-    display: grid;
-    grid-template-columns: 1fr auto;
+    display: flex;
     position: absolute;
     max-width: 850px;
+    height: 150px;
     
 }
 .hero article img {
@@ -263,6 +263,8 @@ input,label{
         text-align: center;
 }
 .container-4 img {
+    width: 150px;
+    height: 150px;
     border-radius: 5%;
     box-shadow: 0 0 30px gray;
 }
